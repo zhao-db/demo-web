@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mysql://192.168.193.130:3306/zdb_test
+    username: zhaodb
+    password: 123456
+    driverClassName: com.mysql.jdbc.Driver
